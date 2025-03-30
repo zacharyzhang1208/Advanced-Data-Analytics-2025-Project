@@ -1,7 +1,7 @@
 # Deep Learning：LSTM, GRU, Transformer
 
 > ```
-> .Deep_Learning_Part
+> .
 > ├── ETSA.ipynb # Time Series Exploratory Analysis
 > ├── Results (Metrics) # 模型、实验指标
 > ├── gru_predict.py # GRU 模型训练代码
@@ -20,7 +20,7 @@
 
 因为看到kaggle上有人做的Transformer的模型，然后就用Transformer做baseline。最后输出的拟合效果：LSTM>Transformer>GRU
 
-为了优化模型拟合的效果，做了一下时间序列模式的分析（这里是课程相关的内容，感觉可以写入report，详情见`data_analysis.ipynb`）。
+为了优化模型拟合的效果，做了一下时间序列模式的分析（这里是课程相关的内容，感觉可以写入report，详情见`ETSA.ipynb`）。
 
 分析的结果是，有明显的趋势性，季节性比较微弱（所以这里没有做和季节性的实验）。
 
@@ -140,7 +140,7 @@ graph LR
     style Embedding4 fill:#fff,stroke:#666,stroke-dasharray:3,color:#aaa
 ```
 
-## 
+
 
 ### iii. Transformer
 
